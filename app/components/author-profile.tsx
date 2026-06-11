@@ -13,7 +13,7 @@ export function AuthorProfile() {
       />
       <div>
         <p className="font-medium text-neutral-900 dark:text-neutral-100">
-          {author.name}
+          {author.name} Sir
         </p>
         <p className="text-sm text-neutral-600 dark:text-neutral-400 mt-1">
           {author.bio}
