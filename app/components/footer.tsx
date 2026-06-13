@@ -33,6 +33,15 @@ export default function Footer() {
         <li>
           <a
             className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
+            href="/subscribe"
+          >
+            <ArrowIcon />
+            <p className="ml-2 h-7">뉴스레터</p>
+          </a>
+        </li>
+        <li>
+          <a
+            className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
             rel="noopener noreferrer"
             target="_blank"
             href="https://github.com/vercel/next.js"
